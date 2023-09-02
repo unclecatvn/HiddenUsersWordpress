@@ -1,6 +1,6 @@
 # Hướng dẫn ẩn thành viên trong trang Admin của Wordpress
 
-- Trước tiên, tạo user muốn ẩn ( Ví dụ user mình tạo là admin1, thì điền vào code dưới là admin ). Sau đó copy đoạn code dưới vào bất kỳ chỗ nào trong wordpress (function.php, *plugins,...).
+- Trước tiên, tạo user muốn ẩn ( Ví dụ user mình tạo là admin1, thì điền vào code dưới là admin1 ). Sau đó copy đoạn code dưới vào bất kỳ chỗ nào trong wordpress (function.php, *plugins,...).
 
 ```c
  add_action('pre_user_query','yoursite_pre_user_query');
