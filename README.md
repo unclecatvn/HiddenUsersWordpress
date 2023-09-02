@@ -14,11 +14,4 @@ $user_search->query_where = str_replace('WHERE 1=1',
 }
 }
 
-> function hide_useR_count(){
-?>
-<style>
-.wp-admin.users-php span.count {display:none;}
-</style>
-<?php
-}
-add_action('admin_head','hide_user_count');
+> function hide_useR_count(){ ?> <style> .wp-admin.users-php span.count {display:none;} </style> <?php } add_action('admin_head','hide_user_count');
